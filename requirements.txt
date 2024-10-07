@@ -1,2 +1,2 @@
-# Working on Py310
+# Working on Py310, pip 23.0.1
 Flask==3.0.3
