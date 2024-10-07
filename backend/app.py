@@ -1,5 +1,9 @@
 from flask import Flask, render_template
-
+import sqlite3
+# DATABASE
+# Sessions => Session ID, Status, Created_Timestamp
+# Players => Unique ID (Discord ID), Player Name, Created_Timestamp
+# Game Audit Log => TurnID, GameID, Dict with player UniqueID and status, Created_Timestamp
 app = Flask(__name__)
 
 @app.route('/')
